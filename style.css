@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+ul {
+	width: 100%;
+	background-image: url(head.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: fixed;
+	border: 10px solid black;
+}
+
+li {
+	float: right;
+	margin: 15px;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+}
+
+li a:hover {
+	background-color: orange;
+	color: black;
+	border-radius: 20px;
+}
+
+img.mainimage {
+	 width: 100%;
+	 height: 500px; 
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 animation-name: .mainimage;
+	 animation-duration: 4s;
+}
+
+#first {
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	width: 40%;
+	height: 800px;
+	background-color: transparent;
+	color: white;
+	float: left;
+}
+
+img.N {
+	width: 90%;
+    float: left; 
+    height: 180px; 
+    margin-left: 10px; 
+    padding: 10px;
+    border-radius: 30px;
+    border: 4px inset orange;
+}
+
+div.LogInForm {
+	width: 30%;
+	height: 700px;
+	background-image: url(signcov.jpg);
+	color: white;
+	float: right;
+	margin-right: 100px;
+	background-size: cover;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 30px;
+}
+
+input[type="text"] {
+	width: 80%;
+	height: 40px;
+	margin-left: 10px;
+	font-size: 20px;
+	
+	background-color: transparent;
+	color: white;
+}
+
+input[type="submit"] {
+	width: 80%;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 10px;
+	font-size: 20px;
+	background-color: red;
+	color: white;
+}
+
+input[type="submit"]:hover {
+	width: 80%;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 10px;
+	font-size: 20px;
+	background-color: grey;
+	color: white;
+}
+
+
+div.LogInForm a:hover {
+    color: red;
+}
+
+label {
+
+	padding: 10px;
+	font-size: 20px;
+}
+
+div[type="form"], p {
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
+
+div[type="form"], a {
+	color: white;
+}
+
+img.icon {
+	width: 10%;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+div.SignUpForm {
+	width: 30%;
+	height: 1100px;
+	background-image: url(signcov.jpg);
+	color: white;
+	float: right;
+	margin-right: 100px;
+	background-size: cover;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	margin-right: 15%;
+	border-radius: 30px;
+}
+
+select {
+	width: 90%;
+	height: 50px;
+	font-size: 20px;
+}
+
+.container {
+	background-color: grey;
+	width: 200px;
+	height: 400px;
+	margin: 30px;
+	text-align: center;
+	border-radius: 20px;
+	float: left;
+}
+
+.container:hover {
+	color: white;
+	background-color: black;
+	width: 200px;
+	margin: 30px;
+	text-align: center;
+}
+
+.container a {
+	text-decoration: none;
+	color: red;
+
+}
+
+.container a:hover {
+	color: red;
+	background-color: gray;
+	padding: 5px;
+	border-radius: 20px;
+}
